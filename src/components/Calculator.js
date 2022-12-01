@@ -16,16 +16,17 @@ const Calculator = () => {
     setObj(res);
   };
 
-  const padZero = (num) => (num == null ? 0 : num);
-
   const resultFormater = () => {
-    if (obj.total == null) {
-      return padZero(obj.next);
+    if (obj.next != null) {
+      return obj.next;
     }
-    if (obj.operation == null) {
+    if (obj.operation != null) {
+      return obj.operation;
+    }
+    if (obj.total != null) {
       return obj.total;
     }
-    return padZero(obj.next);
+    return 0;
   };
 
   return (
