@@ -1,9 +1,9 @@
 import renderer from 'react-test-renderer';
-import ResultView from '../components/ResultView';
+import Quotes from '../components/Quotes';
 
 describe('Testing snapshot of resultView', () => {
   test('Snapshot of result view', () => {
-    const elem = renderer.create(<ResultView />).toJSON();
+    const elem = renderer.create(<Quotes />).toJSON();
     expect(elem).toMatchSnapshot();
   });
 });
