@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing snapshot of resultView Snapshot of result view 1`] = `
+exports[`Testing snapshot of quotesView Snapshot of quotes view 1`] = `
 <div
   className="m-4"
 >

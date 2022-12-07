@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing snapshot of Header Snapshot of Header view 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light bg-light justify-content-between p-2"
+>
+  <h1
+    className="navbar-brand"
+  >
+    Magic Calculator
+  </h1>
+  <ul
+    className="navbar-nav"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="/cal"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="/quotes"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

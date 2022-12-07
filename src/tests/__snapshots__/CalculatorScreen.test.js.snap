@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing snapshot of CalculatorScreen Snapshot of CalculatorScreen view 1`] = `
+<div
+  className="row m-5"
+>
+  <div
+    className="col-md-6"
+  >
+    <h3>
+      Lets do some Math!
+    </h3>
+  </div>
+  <div
+    className="col-md-6"
+  >
+    <div
+      className="row calculator"
+    >
+      <div
+        className="col-md-12 resultview"
+      >
+        <p
+          className="result"
+          id="resultview"
+        >
+          0
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="ac"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          AC
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="plusminus"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          +/-
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="percent"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          %
+        </p>
+      </div>
+      <div
+        className="col-md-3 function"
+        id="divide"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          ÷
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="7"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          7
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="8"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          8
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="9"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          9
+        </p>
+      </div>
+      <div
+        className="col-md-3 function"
+        id="multiply"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          x
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="4"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          4
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="5"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          5
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="6"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          6
+        </p>
+      </div>
+      <div
+        className="col-md-3 function"
+        id="minus"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          -
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="1"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          1
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="2"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          2
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number"
+        id="3"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          3
+        </p>
+      </div>
+      <div
+        className="col-md-3 function"
+        id="plus"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          +
+        </p>
+      </div>
+      <div
+        className="col-md-6 btn_number"
+        id="0"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          0
+        </p>
+      </div>
+      <div
+        className="col-md-3 btn_number "
+        id="."
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          .
+        </p>
+      </div>
+      <div
+        className="col-md-3 function"
+        id="equal"
+        onClick={[Function]}
+      >
+        <p
+          className="text-center"
+        >
+           
+          =
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
