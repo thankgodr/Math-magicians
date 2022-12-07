@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing interaction and snaption of calculator button Calculator function button snapshot 1`] = `
+<div
+  className="col-md-3 function"
+  onClick={[Function]}
+>
+  <p
+    className="text-center"
+  >
+     
+    =
+  </p>
+</div>
+`;

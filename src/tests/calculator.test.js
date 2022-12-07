@@ -1,12 +1,13 @@
 import { render, queryByAttribute } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import App from '../App';
+import renderer from 'react-test-renderer';
+import Calculator from '../components/Calculator';
 
 describe('Testing the calculator printed on the dom', () => {
   let dom = null;
   let getById = null;
   beforeEach(() => {
-    dom = render(<App/>);
+    dom = render(<Calculator/>);
     getById = queryByAttribute.bind(null, 'id');
   });
   test('Testing random number between 0-9 exit in dom', async () => {
@@ -38,7 +39,7 @@ describe('Testing the calculator click', () => {
   let dom = null;
   let getById = null;
   beforeEach(() => {
-    dom = render(<App/>);
+    dom = render(<Calculator/>);
     getById = queryByAttribute.bind(null, 'id');
     userEvent.click(getById(dom.container, 'ac'));
   });
@@ -50,7 +51,7 @@ describe('Testing the calculator click', () => {
     const resultView = getById(dom.container, 'resultview');
     userEvent.click(first);
     userEvent.click(second);
-    expect(resultView).toHaveTextContent(`${random}${random2}`);
+    expect(resultView).toHaveTextContent(`${parseInt(`${random}${random2}`, 10)}`);
   });
 
   test('Testing calculator addtion', async () => {
@@ -77,5 +78,12 @@ describe('Testing the calculator click', () => {
     userEvent.click(second);
     userEvent.click(equal);
     expect(resultView).toHaveTextContent(4);
+  });
+});
+
+describe('Testing SnapShot', () => {
+  test('It should render all calculator view', () => {
+    const elem = renderer.create(<Calculator />).toJSON();
+    expect(elem).toMatchSnapshot();
   });
 });
