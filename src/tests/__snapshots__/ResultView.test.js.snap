@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing snapshot of resultView Snapshot of result view 1`] = `
+<div
+  className="col-md-12 resultview"
+>
+  <p
+    className="result"
+    id="resultview"
+  >
+    0
+  </p>
+</div>
+`;

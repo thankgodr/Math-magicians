@@ -6,6 +6,9 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
     "big.js": "^6.2.1",
     "bootstrap": "^5.2.3",
     "prop-types": "^15.8.1",
@@ -13,6 +16,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
+    "react-test-renderer": "^18.2.0",
     "txtgen": "^3.0.4",
     "web-vitals": "^2.1.4"
   },

@@ -1,6 +1,6 @@
 const NAVIGATIONPATH = {
   HOME: '/',
-  CALCULATOR: '/calculator',
+  CALCULATOR: '/cal',
   QUOTES: '/quotes',
 };
 
